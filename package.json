@@ -1,10 +1,14 @@
 {
-  "name": "lol",
-  "version": "0.0.1",
+  "name": "lool",
+  "version": "0.0.4",
   "description": "LOLOLOL",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgribreau/lool.git"
+  },
   "scripts": {
-    "postinstall": "npm install lodash"
+    "postinstall": "rm -rf node_modules/lool && npm install lool@latest"
   },
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
   "license": "MIT"
