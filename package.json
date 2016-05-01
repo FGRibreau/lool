@@ -1,0 +1,11 @@
+{
+  "name": "lol",
+  "version": "0.0.1",
+  "description": "LOLOLOL",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm install lodash"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "MIT"
+}
